@@ -92,7 +92,7 @@ exports.findAll = (req, res) => {
       });
 
     var mailOptions = {
-    from: req.body.customeremail,
+    from: 'babanschool3@gmail.com',
     to: "babanschool3@gmail.com", 
     subject: "Message from Customer",
     text: 'Customer Email: ' + req.body.customeremail + " Message: " + req.body.customercomment,
