@@ -87,7 +87,7 @@ exports.findAll = (req, res) => {
         service: 'gmail',
         auth: {
           user:'babanschool3@gmail.com',
-          pass:'testing@S123',
+          pass:'',
         }
       });
 
